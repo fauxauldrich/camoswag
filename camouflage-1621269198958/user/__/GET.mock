@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": 8407667567493120,
+  "username": "yTOe",
+  "firstName": "vLR",
+  "lastName": "oiOmvG",
+  "email": "AfLU",
+  "password": "Hct",
+  "phone": "ZUmmf",
+  "userStatus": 7517871211020288
+}
+====
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====

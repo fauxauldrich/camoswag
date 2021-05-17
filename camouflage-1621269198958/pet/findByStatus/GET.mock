@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": -6258476816793600,
+    "category": {
+      "id": -3109826385149952,
+      "name": "mMRMXoHJnLD"
+    },
+    "name": "PWejWKffNW",
+    "photoUrls": [
+      "GvG"
+    ],
+    "tags": [
+      {
+        "id": -5412031372984320,
+        "name": "Aj"
+      }
+    ],
+    "status": "pending"
+  }
+]
+====
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====

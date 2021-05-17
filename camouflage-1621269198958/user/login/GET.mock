@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+"ghsVE"
+====
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====

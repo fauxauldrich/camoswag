@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": 3639836862840832,
+  "category": {
+    "id": -6904188336340992,
+    "name": "msL"
+  },
+  "name": "fWDXeudI",
+  "photoUrls": [
+    "ZvvFZM"
+  ],
+  "tags": [
+    {
+      "id": -5443327017091072,
+      "name": "Ynsqh"
+    }
+  ],
+  "status": "pending"
+}
+====
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====

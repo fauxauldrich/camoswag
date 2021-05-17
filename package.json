@@ -1,0 +1,35 @@
+{
+  "name": "camoswag",
+  "version": "0.0.4",
+  "description": "A Camouflage extension for converting OpenAPI specifications to Camouflage mocks",
+  "main": "camoswag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "camoswag": "bin/camoswag.js"
+  },
+  "keywords": [
+    "swagger",
+    "open-api",
+    "openapi",
+    "test",
+    "mock",
+    "api",
+    "webservice",
+    "rest",
+    "camouflage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fauxauldrich/camouflage"
+  },
+  "author": "Shubhendu Madhukar <shubhendumadhukar@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "swagmock": "^1.0.0",
+    "winston": "^3.3.3",
+    "yargs": "^17.0.1"
+  }
+}

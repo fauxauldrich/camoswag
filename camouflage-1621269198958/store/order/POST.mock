@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": 5770442103062528,
+  "petId": -1120756788363264,
+  "quantity": -2879783742472192,
+  "shipDate": "2021-05-17T16:33:19.023Z",
+  "status": "placed",
+  "complete": false
+}
+====
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====

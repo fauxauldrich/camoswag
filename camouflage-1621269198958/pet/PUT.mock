@@ -1,0 +1,21 @@
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====
+HTTP/1.1 405 Method Not Allowed
+Content-Type: application/json
+
+{
+	"message": "More Configuration Needed"
+}
+====
